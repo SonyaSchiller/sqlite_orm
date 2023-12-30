@@ -1,5 +1,5 @@
-# note: the minimum required version needs to go hand in hand with appveyor builds,
-# which is CMake 3.16 for the Visual Studio 2017 build worker image
+* note: the minimum required version needs to go hand in hand with appveyor builds,
+  which is CMake 3.16 for the Visual Studio 2017 build worker image
 cmake_minimum_required (VERSION 3.16)
 
 # PACKAGE_VERSION is used by cpack scripts currently
@@ -91,3 +91,4 @@ endif()
 
 ### Packaging
 add_subdirectory(packaging)
+ 
